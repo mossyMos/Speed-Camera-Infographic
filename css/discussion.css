@@ -1,0 +1,276 @@
+body {
+	margin: 0;
+	background-color: #f2caca;
+    padding:0px;
+}
+
+@font-face {
+	font-family: walkway;
+	src: url(../fonts/walkway/Walkwayultrabold.ttf);
+}
+
+@-font-face {
+    font-family:Forque;
+    src: url(../fonts/Forque.ttf);
+}
+
+@font-face {
+	font-family: questrial;
+	src: url(../fonts/questrial.otf);
+}
+
+@font-face {
+	font-family: Roboto-Light;
+	src: url(../fonts/Roboto-Light.ttf);
+}
+
+
+nav {
+	width: 100%;
+	height: 70px;
+	background-color: #ffffff;
+	position: fixed;
+	float: left;
+	z-index: 5;
+	top: 0;
+	border-bottom: 1px solid #212121;
+}
+
+#navitems {
+	margin: 0;
+	display: inline-block;
+	height: 100%;
+	width: 70%;
+	float: right;
+	transform: translateY(-50%);
+	top: 50%;
+	position: relative;
+    padding-right:7%;
+}
+
+nav #navitems a {
+	transform: translateY(-50%);
+	top: 50%;
+	position: relative;
+	width: 20%;
+	height: 100%;
+	display: inline-block;
+	text-decoration: none;
+	background-color: #ffffff;
+	font-family: "questrial";
+	font-size: 1em;
+	color: #797979;
+    border-right: 0px solid #c6c6c6;
+	border-left: 0px solid #c6c6c6;
+}
+
+nav #navitems a p:hover {
+    color:#ffffff;
+}
+
+nav #navitems a:hover {
+	background-color: #23AFC8;
+    color:#ffffff;
+}
+
+nav #navitems a:visited {
+	color: #5a5a5a;
+}
+
+nav #navitems a p {
+	text-align: center;
+    transform: translateY(55%);
+}
+
+#homepagelogo {
+	width: 90px;
+	height: 90px;
+	transform: translateY(-50%);
+	top: 50%;
+	position: relative;
+	margin-left:2%;
+}
+
+header {
+	width: 100%;
+	height: 250px;
+	margin-top: 1px;
+    background-color: #252c33
+
+}
+
+
+header h1 {
+	color: #e6e6e6;
+	font-family: "Forque";
+	text-align: center;
+	width: 100%;
+    font-size:78px;
+	transform: translateY(%);
+	top: 30%;
+	position: relative;
+}
+
+article#property {
+    background-color: #ffffff;
+    height: 400px;
+    width: 100%;
+}
+
+article#property h2 {
+    color: #797979;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 100px;
+}
+
+article#property p {
+    color: #505050;
+    font-size: 20px;
+    text-align: center;
+    padding-left:25%;
+    padding-right: 25%;
+    padding-bottom: 30px;
+    font-family:Roboto-Light;
+}
+
+article#assume {
+    background-color: #2C4351;
+    height: 400px;
+    width: 100%;
+}
+
+article#assume h2 {
+    color: #DF7D60;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 100px;
+    
+}
+
+article#assume p {
+    color:#d2d8de;
+    font-size: 20px;
+    text-align: center;
+    padding-left:25%;
+    padding-right: 25%;
+    padding-top: 0px;
+    font-family:Roboto-Light;
+    
+}
+
+article#conclusion {
+    background-color: #2C4351;
+    height: 500px;
+    width: 100%;
+}
+
+article#conclusion h2 {
+    color: #DF7D60;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 100px;
+}
+
+article#conclusion p {
+    color: #d2d8de;
+    font-size: 20px;
+    text-align: center;
+    padding-left:15%;
+    padding-right: 15%;
+    padding-top: 0px;
+    font-family:Roboto-Light;
+}
+
+article#tools  {
+     background-color: #ffffff;
+    height: 400px;
+    width: 100%;
+}
+
+
+article#tools h2  {
+     color: #797979;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 100px;
+}
+
+article#tools ul {
+    color:#505050;
+    font-size: 20px;
+    text-align: left;
+    padding-left:45%;
+    padding-right: 25%;
+    padding-top: 0px;
+    list-style-type: circle;
+    	font-family: Roboto-Light;
+}
+
+
+Footer {
+    width: 100%;
+	height: 70px;
+	background-color: #ffffff;
+	position: relative;
+	float: left;
+	z-index: 5;
+	top: 0;
+	border-top: 1px solid #212121;   
+    border-bottom: 1px solid #212121; 
+}
+
+#footerfake {
+    margin: 0;
+	display: inline-block;
+	height: 100%;
+	width: 90%;
+    margin: 0 auto;
+	transform: translateY(-50%);
+	top: 50%;
+	position: relative;
+    padding-left:8%;
+
+    padding-left: %;
+    padding-right: %;    
+  
+    
+}
+
+footer #footerfake a{
+    transform: translateY(-50%);
+	top: 50%;
+	position: relative;
+	width: 15%;
+	height: 100%;
+	display: inline-block;
+	text-decoration: none;
+	background-color: #ffffff;
+	font-family: "questrial";
+	font-size: 1em;
+	color: #797979;
+    border-right: 0px solid #c6c6c6;
+	border-left: 0px solid #c6c6c6;  
+}
+
+
+
+footer #footerfake a:visited {
+	color: #5a5a5a;
+}
+
+footer #footerfake a p {
+	text-align: center;
+    transform: translateY(50%);
